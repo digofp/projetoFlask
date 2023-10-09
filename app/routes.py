@@ -11,3 +11,7 @@ def index():
 def contato():
     data = {"profissao": "Analista", "nome": "Rodrigo"}
     return render_template("contato.html", data=data)
+
+@app.route('/ajuda')
+def ajuda():
+    return render_template("ajuda.html")
