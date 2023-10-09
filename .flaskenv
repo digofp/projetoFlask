@@ -1,1 +1,1 @@
-FLASK_APP=recieptsApp.py
+FLASK_APP=recipsApp.py
